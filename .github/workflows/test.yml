@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        playwright-version: [1.14, 1.15, 1.16, 1.17, 1.18]
+        playwright-version: ["1.14", "1.15", "1.16", "1.17", "1.18", "next"]
 
     steps:
     - uses: actions/checkout@v2
